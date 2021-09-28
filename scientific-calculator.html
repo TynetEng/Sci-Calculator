@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="scientific-calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Scientific Calculator</title>
+</head>
+<body>
+
+    <div class="parent" style="padding-top: 30px;">
+        <div id="panel">
+            <h6 id="show" class="px-2"></h6>
+            <h4 id="show2" class="px-2"></h4>
+        </div>
+        <div>
+            <div class="keys">
+
+            </div>
+            <div class="keys1">
+                <div class="d-flex justify-content-around">
+                    <button onclick="operator(7)">(-)</button>
+                    <button onclick="operator(')SQRT')">sqrt</button>
+                    <button onclick="operator(')x2')">x<sup>2</sup></button>
+                    <button onclick="operator(')x3')">x <sup>3</sup></button>
+                    <button onclick="operator(')LOG')">log</button>
+                    <button onclick="operator(')IN')">In</button>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <button onclick="operator(7)">(-)</button>
+                    <button onclick="operator('')"><sup>' ''</sup></button>
+                    <button onclick="operator(')x-1')">X <sup>-1</sup></button>
+                    <button onclick="operator(')SIN')">sin</button>
+                    <button onclick="operator(')COS')">cos</button>
+                    <button onclick="operator(')TAN')">tan</button>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <button onclick="operator('sto')">STO</button>
+                    <button onclick="operator('eng')">ENG</button>
+                    <button onclick="operator('(')">(</button>
+                    <button onclick="operator(')')">)</button>
+                    <button onclick="operator('s-d')">S-D</button>
+                    <button onclick="operator('M+')">M+</button>
+                </div>
+            </div>
+            <div class="keys2">
+                <div class="d-flex justify-content-around">
+                    <button onclick="number(7)">7</button>
+                    <button onclick="number(8)">8</button>
+                    <button onclick="number(9)">9</button>
+                    <button onclick="del()">DEL</button>
+                    <button onclick="on()">AC</button>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <button onclick="number(4)">4</button>
+                    <button onclick="number(5)">5</button>
+                    <button onclick="number(6)">6</button>
+                    <button onclick="operator('*')"><i class="fa fa-times"></i></button>
+                    <button onclick="operator('/')">/</button>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <button onclick="number(1)">1</button>
+                    <button onclick="number(2)">2</button>
+                    <button onclick="number(3)">3</button>
+                    <button onclick="operator('+')">+</button>
+                    <button onclick="operator('-')">-</button>
+                </div>
+                <div class="d-flex justify-content-around" style="padding-bottom: 30px;">
+                    <button onclick="number(0)">0</button>
+                    <button onclick="number('.')">.</button>
+                    <button onclick="operator('*10')">*10 <sup>*</sup></button>
+                    <button onclick="storeResult('ANS')">ANS</button>
+                    <button onclick="result('=')">=</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="C:\Users\OLUWATOYIN\Desktop\SQI\JAVASCRIPT\scientific-calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.parent {
+  width: 350px !important;
+  background-color: grey;
+  border-radius: 20px;
+}
+.parent #panel {
+  width: 90%;
+  border: 5px solid lightgrey;
+  background-color: papayawhip;
+  height: 100px;
+  margin: auto;
+  border-radius: 7px;
+}
+.parent .keys1 button {
+  color: white;
+  background-color: black;
+  margin-top: 7px;
+  width: 13%;
+  padding: 7px 5px;
+  border: none;
+  border-radius: 7px;
+}
+.parent .keys1 .box {
+  width: 3px;
+  height: 3px;
+  color: white;
+}
+.parent .keys2 {
+  margin-top: 7px;
+  padding-bottom: 30px;
+}
+.parent .keys2 button {
+  color: white;
+  background-color: black;
+  margin-top: 7px;
+  width: 17%;
+  padding: 7px 5px;
+  border-radius: 7px;
+  border: none;
+}
+
+@media (max-width: 760px) {
+  .parent {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=scientific-calculator.css.map */
